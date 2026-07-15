@@ -68,7 +68,7 @@ header .colash {
 }
 
 /* Escudo de Mérida a la izquierda */
-.cuerpo .escudo .center {
+.cuerpo .escudo {
     width: 35%;
     max-width: 250px;
     height: auto;
