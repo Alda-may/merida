@@ -1,0 +1,117 @@
+/* Restablecer márgenes y definir el fondo de toda la pantalla */
+body {
+    background-color: #add9e6; /* El color de fondo azul claro de la imagen */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor principal centrado y con fondo blanco */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado - Imagen del collage de Mérida */
+header .colash {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Menú de Navegación */
+.menu {
+    background-color: #0000ff; /* Azul puro brillante */
+    padding: 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    flex: 1;
+    text-align: center;
+    border-right: 2px solid #ffffff; /* Separadores blancos entre opciones */
+}
+
+.menu ul li:last-child {
+    border-right: none; /* Quita el borde al último elemento */
+}
+
+.menu ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.menu ul li a:hover {
+    background-color: #0000cc; /* Efecto sutil al pasar el mouse */
+}
+
+/* Cuerpo de la página (Escudo y Texto lado a lado) */
+.cuerpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+/* Escudo de Mérida a la izquierda */
+.cuerpo .escudo {
+    width: 35%;
+    max-width: 250px;
+    height: auto;
+}
+
+/* Bloque de texto a la derecha */
+.cuerpo .texto {
+    width: 55%;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Pie de Página */
+.pie {
+    background-color: #0000ff;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 14px;
+}
+
+/* Sección de texto izquierda */
+.pie .derecha {
+    flex: 1;
+    text-align: left;
+}
+
+/* Sección de redes sociales derecha */
+.pie .izquierda {
+    flex: 1;
+    text-align: right;
+}
+
+/* Iconos de las redes sociales circulares */
+.pie .img-red {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: middle;
+    object-fit: cover;
+}
