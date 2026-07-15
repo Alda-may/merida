@@ -1,6 +1,6 @@
 /* Restablecer márgenes y definir el fondo de toda la pantalla */
 body {
-    background-color: #add9e6; /* El color de fondo azul claro de la imagen */
+    background-color: #add9e6;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 10px 0;
@@ -56,7 +56,7 @@ header .colash {
 }
 
 .menu ul li a:hover {
-    background-color: #0000cc; /* Efecto sutil al pasar el mouse */
+    background-color: #0000cc;
 }
 
 /* Cuerpo de la página (Escudo y Texto lado a lado) */
