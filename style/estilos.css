@@ -1,7 +1,7 @@
 /* Restablecer márgenes y definir el fondo de toda la pantalla */
 body {
     background-color: #add9e6;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman';
     margin: 0;
     padding: 10px 0;
     display: flex;
@@ -68,7 +68,7 @@ header .colash {
 }
 
 /* Escudo de Mérida a la izquierda */
-.cuerpo .escudo {
+.cuerpo .escudo .center {
     width: 35%;
     max-width: 250px;
     height: auto;
