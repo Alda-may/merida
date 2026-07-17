@@ -96,13 +96,13 @@ header .collage {
 }
 
 /* Sección de texto izquierda */
-.pie .derecha {
+.pie .izquierda {
     flex: 1;
     text-align: left;
 }
 
 /* Sección de redes sociales derecha */
-.pie .izquierda {
+.pie .derecha {
     flex: 1;
     text-align: right;
 }
